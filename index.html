@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tabuada</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="content">
+        <h1>Tabuada</h1>
+        <div class="linha"></div>
+        <span class="subTittle">Escolha um número:</span>
+        <div class="buttons">
+          <button class="btn" value="1" onclick="play(this.value)">1</button>
+          <button class="btn" value="2" onclick="play(this.value)">2</button>
+          <button class="btn" value="3" onclick="play(this.value)">3</button>
+          <button class="btn" value="4" onclick="play(this.value)">4</button>
+          <button class="btn" value="5" onclick="play(this.value)">5</button>
+          <button class="btn" value="6" onclick="play(this.value)">6</button>
+          <button class="btn" value="7" onclick="play(this.value)">7</button>
+          <button class="btn" value="8" onclick="play(this.value)">8</button>
+          <button class="btn" value="9" onclick="play(this.value)">9</button>
+        </div>
+      </div>
+      <div class="content hidden">
+        <h1>Tabuada</h1>
+        <div class="linha"></div>
+        <div id="tabuada"></div>
+        <button onclick="voltar()">Voltar</button>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
